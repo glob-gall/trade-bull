@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: trade-bull.vercel.app
+Token: d3ec10fb4d95c21b07d954e17c78349c05990171a2df5caa6e89b5503eeecf8d

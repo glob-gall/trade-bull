@@ -7,11 +7,14 @@
 }
 
 .addCoin{
+    width: 100%;
     display:flex;
-    margin: 2.5rem 1rem 1rem;
     align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom:0.5rem
 }
 .addCoinButton{
+    margin-top:1rem;
     width: 6rem;
     height: 3.4rem;
     border-radius: 4px;
@@ -34,4 +37,11 @@
     border-radius: 4px;
     padding: 0 1rem;
     font-size: 24px;
+}
+.divisor{
+    width: 100%;
+    border-top:2px solid #41445C90;
+    margin:3rem 3rem 1rem;
+    border-radius: 5px;
+
 }

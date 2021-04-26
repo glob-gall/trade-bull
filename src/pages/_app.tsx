@@ -1,5 +1,7 @@
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from 'next/app'
+import {VideoProvider} from '../hooks/useCripto'
+
 import '../styles/global.css'
 import '../Templates/Home/styles.css'
 import '../Components/WalletList/styles.css'
@@ -8,7 +10,11 @@ import '../Components/WalletList/CoinInfo/styles.css'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <VideoProvider>
+      <Component {...pageProps} />
+    </VideoProvider>
+    )
 }
 
 // Only uncomment this method if you have blocking data requirements for
